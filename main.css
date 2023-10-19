@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1b1d20;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #8844ee;
+    color: #f5f5f5;
+}
+
+header h1,
+section h2,
+header nav a {
+    font-family: 'Boldstrom', sans-serif;
+    font-weight: normal;
+}
+
+p, input, textarea, form button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+
+h3,
+.portfolio a,
+.social-links a,
+.brand-list li {
+    font-family: 'monserrat', sans-serif;
+    font-weight: 800;
+}
+
+h3, h2 {
+    background-image: linear-gradient(to bottom right, #8844ee, #00ffff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+header nav a {
+    font-size: 18px;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 24px;
+}
+
+header nav li a {
+    color: #f5f5f5;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+p {
+    color: #ccc;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border: 2px solid #8844ee;
+}
+
+.store-front {
+    align-self: center;
+    height: 240px;
+}
+
+.brand-list img {
+    height: 55px;
+    padding-right: 16px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2,
+section h3 {
+    padding-bottom: 8px;
+}
+
+section h2{
+    font-size: 38px;
+}
+
+section h3{
+    font-size: 24px;
+}
+
+section p {
+    padding-bottom: 8px;
+}
+
+.store-front {
+    margin-right: 32px;
+}
+
+.social-links img{
+    height: 24px;
+}
+
+#contact ul, #contact ul li {
+    display: flex;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-methods ul li {
+    padding-right: 16px;
+}
+
+.contact-methods ul li img{
+    padding-right: 8px;
+}
+
+.contact-methods ul li a{
+    display: flex;
+    align-items: center;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form input,
+form textarea {
+    background-color: #282a2d;
+    font-size: 16px;
+    color: #ccc;
+}
+
+form button {
+    font-weight: bold;
+}
+
+textarea {
+    resize: none;
+    height: 180px;
+}
+
+button {
+    background-color: #8844ee;
+    border: none;
+    color: #ccc;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form input, textarea {
+    border: none;
+}
+
+button:hover {
+    background-color: #b07dfb;
+}
+
+.portfolio a,
+.social-links a {
+    text-decoration: none;
+    color: #ccc;
+}
+
+.portfolio a:hover,
+.social-links a:hover {
+    color: #b07dfb;
+}
+
+#about ul,
+#about ul li {
+    display: flex;
+    justify-content: space-between;
+}
+
+#about ul li {
+    color: #ccc;
+    align-items: center;
+}
+
+footer {
+    background-color: #8844ee;
+    color: #ccc;
+    padding: 16px 0;
+}
